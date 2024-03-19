@@ -1,0 +1,97 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #353333;
+    color: #05B2DC;
+    
+}
+
+header{
+    width: 100%;
+    background-color: #0D0106;
+    box-sizing: border-box;
+    padding: 10px 45px;
+    color: #FFFFFC;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#img_danton{
+    height: 120px;
+    width: 120px;
+    border-radius: 90px;
+    border: solid 2px #05B2DC;
+}
+
+#links{
+    align-items: right;
+    margin-left: auto;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+}
+
+li{
+    list-style-type: none;
+}
+
+a, a:visited{
+    color: #FFFFFC;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #05B2DC;
+    text-decoration: underline;
+}
+
+/*
+nav .active li a {
+    color: #05B2DC;
+    text-decoration: underline;
+    font-weight: bold;
+}
+*/
+
+hr{
+    border-color: #05B2DC;
+}
+
+main{
+    box-sizing: border-box;
+    padding: 60px 50px 50px 50px;
+    
+}
+
+h1{
+    margin-bottom: 5px;
+    
+}
+
+p{
+    padding: 20px 15px;
+    text-align: justify;
+    text-indent: 10px;
+    margin-bottom: 20px;
+}
+
+#aviso_trabalhos{
+    text-align: center;
+}
+
+form{
+    text-align: center;
+    box-sizing: border-box;
+}
+
+input, textarea{
+    border-radius: 1dvh;
+}
